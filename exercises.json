@@ -1,0 +1,21 @@
+{
+  "folders": {
+    "Basic": [
+      "Spider Walk"
+    ],
+    "Goals": [
+      "Paganini 5th Caprice Crossroads"
+    ]
+  },
+  "root": [],
+  "info": {
+    "Spider Walk": {
+      "link": "https://www.youtube.com/watch?v=62K1dZ9lK7w",
+      "note": ""
+    },
+    "Paganini 5th Caprice Crossroads": {
+      "link": "https://www.youtube.com/watch?v=grVmXp-Kfho",
+      "note": ""
+    }
+  }
+}

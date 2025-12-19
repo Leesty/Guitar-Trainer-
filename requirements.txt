@@ -1,0 +1,27 @@
+# Guitar Trainer Application Dependencies
+# Python 3.7+ required
+
+# Sound processing and metronome
+pygame>=2.0.0
+
+# Data visualization and charts for exercise statistics
+# Note: matplotlib automatically installs numpy as a dependency, but listing it explicitly for clarity
+numpy>=1.19.0
+matplotlib>=3.5.0
+
+# Note: The following are built-in Python modules and don't need installation:
+# - tkinter (GUI framework)
+# - os, sys (system operations)
+# - datetime (date/time handling)
+# - json (data serialization)
+# - winsound (Windows sound - Windows only)
+# - threading (multithreading)
+# - time (time operations)
+# - webbrowser (opening links)
+
+# PIL/Pillow - required by matplotlib (even if not directly used)
+Pillow>=9.0.0
+
+# Build tool (optional - only needed for creating EXE)
+# pyinstaller>=5.0.0
+

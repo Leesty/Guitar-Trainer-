@@ -18,13 +18,10 @@ If you’re struggling to stay **consistent** or to see **progress** in your gui
 2. Download the latest build archive (EXE)
 3. Unpack it and run **Guitar Trainer.exe**
 
-> **Note:** Windows may show a SmartScreen warning because the app is not signed. If that happens, click **More info → Run anyway**.
+### Option 2 — Run from Source (Python)
+**Requirements:** Python 3+ (recommended Python 3.10+)
 
-### **Option 2 — Run from Source (Python)**
-**Requirements:** **Python 3+** (recommended **Python 3.10+**)
-
-Windows (from source)
-
+```bat
 git clone https://github.com/Leesty/Guitar-Trainer.git
 cd Guitar-Trainer
 
@@ -35,6 +32,8 @@ py -3 -m pip install --upgrade pip
 py -3 -m pip install -r requirements.txt
 
 py -3 guitar_trainer_0.1.py
+
+```
 
 
 ## **What can the tracker do right now?**

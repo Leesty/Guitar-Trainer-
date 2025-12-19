@@ -1,4 +1,4 @@
-# Guitar Practice Tracker (v1)
+# Guitar Practice Tracker (v0.1)
 
 Hi! This is the **first public version** of my **guitar practice tracker**. I’ve been using it personally for quite a while and have already seen **real results**.
 

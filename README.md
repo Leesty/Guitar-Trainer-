@@ -33,6 +33,8 @@ Each exercise supports:
 In **Workout History** you can see a **daily summary** of your practice sessions.  
 It’s a quick and convenient way to review what you practiced each day.
 
+At the bottom, you can also see the **total amount of time** you’ve spent practicing overall.
+
 ---
 
 ### **3) Settings**

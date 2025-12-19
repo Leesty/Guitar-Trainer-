@@ -45,7 +45,7 @@ This helps you avoid forgetting important exercises.
 ---
 
 ## **Start a new workout**
-Click **New Workout**, pick an exercise, enable the built-in **metronome** (if you need it), and start practicing.  
+Click **New Workout**, pick an exercise, enable the built-in **simple metronome** (if you need it), and start practicing.  
 The app will track your workout and update your **statistics** automatically.
 
 ---

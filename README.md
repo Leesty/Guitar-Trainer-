@@ -11,6 +11,36 @@ As a friend once told me:
 If you’re struggling to stay **consistent** or to see **progress** in your guitar exercises, this app might help.
 
 ---
+
+## ✨ Update — macOS-native rebuild (cross-platform)
+
+`guitar_trainer.py` is a full rebuild of the app that runs natively on **macOS** — and still works on **Windows / Linux**:
+
+- **Redesigned dark UI** tuned for macOS: rounded controls, system-style colors, clean typography
+- **No `winsound` dependency** — the metronome is now fully cross-platform, with several click sounds to choose from and a volume control
+- **Run from anywhere** — data files are resolved next to the script
+- **100% data-compatible** with the old version (same `exercises.json` and `Guitar Exercises.md` format)
+
+The original **`guitar_trainer_0.1.py`** is kept as the legacy Windows build.
+
+### macOS — Run from Source
+**Requirements:** Python 3.10+
+
+```bash
+git clone https://github.com/Leesty/Guitar-Trainer.git
+cd Guitar-Trainer
+
+python3 -m venv venv
+source venv/bin/activate
+
+python3 -m pip install --upgrade pip
+python3 -m pip install -r requirements.txt
+
+python3 guitar_trainer.py
+```
+
+---
+
 ## **Windows Installation (Recommended)**
 
 ### **Option 1 — Download EXE (no Python needed)**
@@ -35,6 +65,8 @@ py -3 guitar_trainer_0.1.py
 
 ```
 
+> Tip: prefer the redesigned cross-platform UI — run `py -3 guitar_trainer.py` instead.
+
 
 ## **What can the tracker do right now?**
 
@@ -48,8 +80,7 @@ Each exercise supports:
 - A **link** to the exercise (YouTube, tabs, article, etc.)
 - A short **note**
 
-> **UI note:** the design is still **rough** — I’d really appreciate feedback.  
-> Building and designing alone is hard, so your suggestions will help a lot.
+> **UI note:** the new macOS build (`guitar_trainer.py`) ships a fully redesigned interface. Feedback is still very welcome!
 
 ---
 
